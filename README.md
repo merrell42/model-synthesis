@@ -1,4 +1,8 @@
 # Model Synthesis
+
+<img alt="Generated Model" src="figures/city.jpg">
+<img alt="Generated Textures" src="figures/textures.jpg">
+
 Model synthesis is a technique for generating 2D and 3D shapes from examples. It is inspired by texture synthesis.
 Model synthesis was created by Paul Merrell. Merrell published several papers about it from 2007 - 2011 at
 [i3D](https://paulmerrell.org/wp-content/uploads/2021/06/model_synthesis.pdf),
@@ -7,9 +11,6 @@ Model synthesis was created by Paul Merrell. Merrell published several papers ab
 in his [PhD disseration](https://paulmerrell.org/wp-content/uploads/2021/06/thesis.pdf).
 More information can be [found on his website](https://paulmerrell.org/model-synthesis/). It contains additional
 results and videos explaining the algorithm. This code implements Merrell's [2007 algorithm](https://paulmerrell.org/wp-content/uploads/2021/06/model_synthesis.pdf).
-
-<img alt="Generated Model" src="figures/city.jpg">
-<img alt="Generated Textures" src="figures/textures.jpg">
 
 ## Related Work
 
@@ -94,7 +95,7 @@ A. Efros and T. Leung. [Texture synthesis by non-parametric sampling](https://pe
 
 M. Gumin. 2016. [WaveFunctionCollapse](https://github.com/mxgmn/WaveFunctionCollapse). GitHub repository, 2016.
 
-A. Mackworth. [Consistency in networks of relations]((https://www.cs.ubc.ca/~mack/Publications/AI77.pdf)). Artificial Intelligence, 1977.
+A. Mackworth. [Consistency in networks of relations](https://www.cs.ubc.ca/~mack/Publications/AI77.pdf). Artificial Intelligence, 1977.
 
 P. Merrell. [Model Synthesis](https://paulmerrell.org/wp-content/uploads/2021/06/thesis.pdf). Ph.D. Dissertation, University of North Carolina at Chapel Hill, 2009.
 
