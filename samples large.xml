@@ -1,0 +1,11 @@
+<samples>
+	<simpletiled name="Summer" width="100" length="100"/>
+	<simpletiled name="Summer" width="200" length="200" blockWidth="10" blockLength="10"/>
+	<simpletiled name="Castle" width="100" height="100"/>
+	<simpletiled name="Castle" width="200" length="200"/>
+	<simpletiled name="Knots" subset="Dense" width="100" height="100"/>
+	<simpletiled name="Knots" subset="TE" width="100" height="100"/>
+	<simpletiled name="Knots" subset="T" width="100" height="100"/>
+	<simpletiled name="Knots" subset="CE" width="100" length="100" blockWidth="20" blockLength="20"/>
+	<simpletiled name="Rooms" width="100" height="100"/>
+</samples>

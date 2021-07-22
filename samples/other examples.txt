@@ -1,0 +1,27 @@
+
+  //ifstream infile ("D:/3DSMAX3/scripts/example_cross.txt",ios::in);
+  //ifstream objfile("D:/3DSMAX3/scripts/objects_cross.txt",ios::in);
+  //ifstream infile ("D:/3DSMAX3/scripts/example_library4.txt",ios::in);
+  //ifstream objfile("D:/3DSMAX3/scripts/objects_library3.txt",ios::in);
+  //ifstream infile ("D:/3DSMAX3/scripts/example_gadget.txt",ios::in);
+  //ifstream objfile("D:/3DSMAX3/scripts/objects_gadget.txt",ios::in);
+  //ifstream infile ("D:/3DSMAX3/scripts/example_ben4.txt",ios::in);
+  //ifstream objfile("D:/3DSMAX3/scripts/objects_ben.txt",ios::in);
+  //ifstream infile ("D:/3DSMAX3/scripts/example_tree4.txt",ios::in); 
+  //ifstream objfile("D:/3DSMAX3/scripts/objects_tree3.txt",ios::in);
+  //char* inName  = "D:/3DSMAX3/scripts/example_canyon4.txt";
+  char* objName = "D:/3DSMAX3/scripts/objects_canyon2.txt";
+  //ifstream infile ("D:/3DSMAX3/scripts/example_castle4.txt",ios::in); 
+  //ifstream objfile("D:/3DSMAX3/scripts/objects_castle5.txt",ios::in);
+  //ifstream infile ("D:/3DSMAX3/scripts/example_roman4.txt",ios::in); 
+  //ifstream objfile("D:/3DSMAX3/scripts/objects_roman3.txt",ios::in);
+  //ifstream infile ("D:/3DSMAX3/scripts/example_roofpath2.txt",ios::in);
+	//ifstream infile ("D:/3DSMAX3/scripts/example_romanpath.txt",ios::in);
+  //ifstream objfile("D:/3DSMAX3/scripts/objects_romanpath.txt",ios::in);
+	//ifstream infile ("D:/3DSMAX3/scripts/example_path2.txt",ios::in);
+  //ifstream objfile("D:/3DSMAX3/scripts/objects_rooffancy.txt",ios::in);
+  //ifstream infile ("D:/3DSMAX3/scripts/example_mountain.txt",ios::in);
+  //ifstream objfile("D:/3DSMAX3/scripts/objects_mountain.txt",ios::in);
+  //ifstream infile ("D:/3DSMAX3/scripts/example_nightsmall.txt",ios::in);
+  //ifstream objfile("D:/3DSMAX3/scripts/objects_night.txt",ios::in);
+  //char* outName = "D:/3DSMAX3/scripts/b0.txt";

@@ -1,0 +1,115 @@
+# Max2Mtl Version 4.0 Mar 10th, 2001
+#
+newmtl 03_-_Defajult
+Ka  0.0 0.4 0.0
+Kd  0.0 0.4 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl 03_-_Default
+Ka  0.0 0.4 0.0
+Kd  0.0 0.4 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl 01_-_Default
+Ka  1.0 0.9 0.0
+Kd  1.0 0.9 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl 07_-_Default
+Ka  0.2 0.4 0.2
+Kd  0.2 0.4 0.2
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl 07_-_Defaultdf
+Ka  0.1 0.3 0.3
+Kd  0.1 0.3 0.3
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  5.0
+illum 2
+#
+newmtl 03_-_Defaultd
+Ka  0.0 0.4 0.0
+Kd  0.0 0.4 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl 03_-_Defdsaultd
+Ka  0.0 0.4 0.0
+Kd  0.0 0.4 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl 03_-_Defaudltd
+Ka  0.0 0.4 0.0
+Kd  0.0 0.4 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl 03_-_Defdsadultd
+Ka  0.0 0.4 0.0
+Kd  0.0 0.4 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl 03_-_Dfdefaultd
+Ka  0.0 0.4 0.0
+Kd  0.0 0.4 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl 03_-_Defkaultd
+Ka  0.0 0.4 0.0
+Kd  0.0 0.4 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl 03_-_Defaultdj
+Ka  0.0 0.4 0.0
+Kd  0.0 0.4 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl 03_-_Defdbvsaultd
+Ka  0.0 0.4 0.0
+Kd  0.0 0.4 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl 10_-_Default
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.9 0.9 0.9
+d  0.0
+Ns  0.0
+illum 2
+#
+# EOF

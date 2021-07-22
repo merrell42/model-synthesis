@@ -1,0 +1,707 @@
+Example model created by Paul Merrell.  Do not insert or delete lines from this file.
+
+x, y, and z extents
+17 17 8              
+
+53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53
+53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53
+53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53
+53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53
+53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53
+53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53
+53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53
+53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53
+53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53
+53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53
+53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53
+53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53
+53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53
+53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53
+53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53
+53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53
+53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53 53
+
+45 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 46
+33 29 43 39 39 39 39 39 39 39 39 39 39 39 41 29 32
+33 42 35 31 31 31 31 31 31 31 31 31 31 31 36 42 32
+33 38 32 2 17 17 17 17 17 17 17 17 17 4 33 38 32
+33 38 32 14 26 26 26 26 26 26 26 26 26 16 33 38 32
+33 38 32 14 26 26 26 26 26 26 26 26 26 16 33 38 32
+33 38 32 3 15 15 15 15 15 15 15 15 15 5 33 38 32
+33 44 34 30 30 30 30 30 30 30 30 30 30 30 37 44 32
+33 29 43 39 39 39 39 41 29 43 39 39 39 39 41 29 32
+33 42 35 31 31 31 31 36 42 35 31 31 31 31 36 42 32
+33 38 32 112 113 113 114 33 38 32 62 63 63 64 33 38 32
+33 38 32 119 90 90 115 33 38 32 69 70 70 65 33 38 32
+33 38 32 119 90 90 115 33 38 32 69 70 70 65 33 38 32
+33 38 32 118 117 117 116 33 38 32 68 67 67 66 33 38 32
+33 44 34 30 30 30 30 37 44 34 30 30 30 30 37 44 32
+33 29 43 39 39 39 39 41 29 43 39 39 39 39 41 29 32
+48 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 47
+
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 54 0 0 55 0 0 0 54 0 0 0 0 0 0
+0 0 0 0 0 0 58 0 0 0 58 0 0 0 0 0 0
+0 0 0 10 24 24 24 24 24 24 24 24 24 12 0 0 0
+0 56 60 22 26 26 26 26 26 26 26 26 26 25 59 0 0
+0 0 0 22 26 26 26 26 26 26 26 26 26 25 0 0 0
+0 0 0 11 23 23 23 23 23 23 23 23 23 13 59 0 0
+0 0 0 0 0 61 0 0 0 0 61 0 0 0 0 0 0
+0 0 0 0 0 54 0 0 55 0 0 0 0 54 55 57 0
+0 57 0 0 0 0 58 0 0 0 0 0 0 0 0 0 0
+0 0 60 92 93 93 94 0 0 0 72 73 73 74 0 57 0
+0 0 0 99 90 90 95 0 0 0 79 70 70 75 59 56 0
+0 0 0 99 90 90 95 0 0 60 79 70 70 75 0 0 0
+0 56 0 98 97 97 96 0 0 0 78 77 77 76 0 0 0
+0 57 0 61 0 0 0 0 0 0 0 0 0 61 0 0 0
+0 0 0 0 0 0 0 0 54 0 0 0 55 54 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 10 24 24 24 24 24 24 52 24 24 12 0 0 0
+0 0 0 22 26 26 26 26 26 26 26 26 26 25 0 0 0
+0 0 0 22 26 26 26 26 26 26 26 26 26 51 0 0 0
+0 0 0 49 23 23 23 23 23 50 23 23 23 13 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 92 93 93 94 0 0 0 72 73 73 74 0 0 0
+0 0 0 99 90 90 95 0 0 0 79 70 70 75 0 0 0
+0 0 0 99 90 90 95 0 0 0 79 70 70 75 0 0 0
+0 0 0 98 97 97 96 0 0 0 78 77 77 76 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 6 21 21 27 24 24 24 24 24 24 12 0 0 0
+0 0 0 18 1 1 14 26 26 26 26 26 26 25 0 0 0
+0 0 0 18 1 1 14 26 26 26 26 26 26 25 0 0 0
+0 0 0 7 19 19 28 23 23 23 23 23 23 13 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 102 103 103 104 0 0 0 72 73 73 74 0 0 0
+0 0 0 109 100 100 105 0 0 0 79 70 70 75 0 0 0
+0 0 0 109 100 100 105 0 0 0 79 70 70 75 0 0 0
+0 0 0 108 107 107 106 0 0 0 78 77 77 76 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 10 24 24 24 24 24 24 12 0 0 0
+0 0 0 0 0 0 22 26 26 26 26 26 26 25 0 0 0
+0 0 0 0 0 0 22 26 26 26 26 26 26 25 0 0 0
+0 0 0 0 0 0 11 23 23 23 23 23 23 13 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 82 83 83 84 0 0 0
+0 0 0 0 0 0 0 0 0 0 89 80 80 85 0 0 0
+0 0 0 0 0 0 0 0 0 0 89 80 80 85 0 0 0
+0 0 0 0 0 0 0 0 0 0 88 87 87 86 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 6 21 21 21 21 21 21 8 0 0 0
+0 0 0 0 0 0 18 1 1 1 1 1 1 20 0 0 0
+0 0 0 0 0 0 18 1 1 1 1 1 1 20 0 0 0
+0 0 0 0 0 0 7 19 19 19 19 19 19 9 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+<Objects>
+3D Studio Scenes\city.max
+somethin'
+$roof
+#
+somethin'2
+$underground
+#
+somethin'3
+$underground
+#
+somethin'4
+$underground
+#
+somethin'5
+$underground
+#
+somethin'6
+$top1a
+$top1b
+$top1c
+$top1d
+#
+somethin'7
+$top3a
+$top3b
+$top3c
+$top3d
+#
+somethin'8
+$top7a
+$top7b
+$top7c
+$top7d
+#
+somethin'9
+$top9a
+$top9b
+$top9c
+$top9d
+#
+somethin'10
+$middle1a
+$middle1b
+$middle1c
+#
+somethin'
+$middle3a
+$middle3b
+$middle3c
+#
+somethin'
+$middle7a
+$middle7b
+$middle7c
+#
+somethin'
+$middle9a
+$middle9b
+$middle9c
+#
+somethin'14
+$underground
+#
+somethin'
+$underground
+#
+somethin'
+$underground
+#
+somethin'17
+$underground
+#
+somethin'18
+$topa
+$topb
+$top2
+$top_window
+#
+somethin'
+$topa
+$topb
+$top6
+$top_window
+#
+somethin'
+$topa
+$topb
+$top8
+$top_window
+#
+somethin'22
+$topa
+$topb
+$top4
+$top_window
+#
+somethin'
+$middlea
+$middleb
+$middle_window
+#
+somethin'
+$middlea
+$middleb
+$middle_window
+#
+somethin'
+$middlea
+$middleb
+$middle_window
+#
+somethin'
+$middlea
+$middleb
+$middle_window
+#
+somethin'26
+$underground
+#
+somethin'
+$1connection
+$middlea
+$middleb
+$middle_window
+#
+somethin'
+$2connection
+$middlea
+$middleb
+$middle_window
+#
+Road
+$Line39
+#
+Westside
+$Line04
+$Line05
+$pole03
+$light03
+#
+Eastside
+$Line71
+$Line72
+$pole01
+$light01
+#
+Northside
+$Line74
+$Line73
+$pole04
+$light04
+#
+Southside
+$Line75
+$Line76
+$pole02
+$light02
+#
+NorthWestside
+$Line230
+$WhiteBar5
+$Line39
+#
+NorthEastside
+$Line229
+$WhiteBar3
+$Line39
+#
+SouthEastside
+$Line228
+$Line39
+$WhiteBar1
+#
+SouthWestside
+$Line231
+$WhiteBar7
+$Line39
+#
+Road
+$Line39
+$Box1771
+$Box1772
+#
+Road
+$Line39
+$Box1769
+$Box1770
+#
+GroundFloor
+$Box04
+#
+Road
+$Line39
+$WhiteBar2
+$Orange1a
+$Orange1b
+#
+Road
+$Line39
+$WhiteBar4
+$Orange2a
+$Orange2b
+#
+Road
+$Line39
+$WhiteBar6
+$Orange3a
+$Orange3b
+#
+Road
+$Line39
+$WhiteBar8
+$Orange4a
+$Orange4b
+#
+Curb
+$Line39
+$curb04
+$triangle03
+#
+Curb
+$Line39
+$curb1
+$triangle1
+#
+Curb
+$Line39
+$curb03
+$triangle04
+#
+Curb
+$Line39
+$curb02
+$triangle02
+#
+somethin'
+$top3a
+$top3b
+$top3c_light
+#
+somethin'
+$middlea
+$middleb
+$middle_light
+#
+somethin'
+$middlea
+$middleb
+$middle_light
+#
+somethin'
+$middlea
+$middleb
+$middle_light
+#
+bottom53
+$underground
+#
+Car
+$car01
+$headlighta01
+$headlightb01
+$interior01
+$carwindow01
+$wheel01
+$hubcap01
+$head01
+$tail01
+#
+Car
+$car02
+$headlighta02
+$headlightb02
+$interior02
+$carwindow02
+$wheel02
+$hubcap02
+$head02
+$tail02
+#
+Car
+$car03
+$headlighta03
+$headlightb03
+$interior03
+$carwindow03
+$wheel03
+$hubcap03
+$head03
+$tail03
+#
+Car
+$car04
+$headlighta04
+$headlightb04
+$interior04
+$carwindow04
+$wheel04
+$hubcap04
+$head04
+$tail04
+#
+Car
+$car05
+$interior05
+$carwindow05
+$wheel05
+$hubcap05
+#
+Car
+$car06
+$interior06
+$carwindow06
+$wheel06
+$hubcap06
+#
+Car
+$car07
+$interior07
+$carwindow07
+$wheel07
+$hubcap07
+#
+Car61
+$car08
+$interior08
+$carwindow08
+$wheel08
+$hubcap08
+#
+somthing62
+$Box04
+$Box223
+#
+somthing63
+$Box04
+$Box223
+#
+somthing64
+$Box04
+$Box223
+#
+somthing65
+$Box04
+$Box223
+#
+somthing66
+$Box04
+$Box223
+#
+somthing67
+$Box04
+$Box223
+#
+somthing68
+$Box04
+$Box223
+#
+somthing69
+$Box04
+$Box223
+#
+somthing70
+$Box04
+$Box223
+#
+somthing71
+$Box04
+$Box223
+#
+somthing72
+$Box04
+$Box223
+#
+somthing73
+$Box04
+$Box223
+#
+somthing74
+$Box04
+$Box223
+#
+somthing75
+$Box04
+$Box223
+#
+somthing76
+$Box04
+$Box223
+#
+somthing77
+$Box04
+$Box223
+#
+somthing78
+$Box04
+$Box223
+#
+somthing79
+$Box04
+$Box223
+#
+somthing80
+$Box04
+$Box223
+#
+somthing81
+$Box04
+$Box223
+#
+somthing82
+$Box04
+$Box223
+#
+somthing83
+$Box04
+$Box223
+#
+somthing84
+$Box04
+$Box223
+#
+somthing85
+$Box04
+$Box223
+#
+somthing86
+$Box04
+$Box223
+#
+somthing87
+$Box04
+$Box223
+#
+somthing88
+$Box04
+$Box223
+#
+somthing89
+$Box04
+$Box223
+#
+90
+$underground
+#
+91
+$underground
+#
+92
+$1bricka
+$1brickb
+$1brickc
+$1window
+#
+93
+$4brick
+$5window
+#
+94
+$7bricka
+$7brickb
+$7brickc
+$7window
+#
+95
+$2brick
+$5window
+#
+96
+$9bricka
+$9brickb
+$9brickc
+$9window
+#
+97
+$4brick
+$5window
+#
+98
+$3bricka
+$3brickb
+$3brickc
+$3window
+#
+99
+$2brick
+$5window
+#
+100
+$2topbrick
+#
+101
+$underground
+#
+102
+$1bricktop
+$1topbrick
+#
+103
+$4bricktop
+$4topbrick
+#
+104
+$7bricktop
+$7topbrick
+#
+105
+$8bricktop
+$2topbrick
+#
+106
+$9bricktop
+$9topbrick
+#
+107
+$6bricktop
+$4topbrick
+#
+108
+$3bricktop
+$3topbrick
+#
+109
+$2bricktop
+$2topbrick
+#
+110
+$brick
+$Box2
+#
+111
+$underground
+#
+112
+$underground
+#
+113
+$underground
+#
+114
+$underground
+#
+115
+$underground
+#
+116
+$underground
+#
+117
+$underground
+#
+118
+$underground
+#
+119
+$underground
+#

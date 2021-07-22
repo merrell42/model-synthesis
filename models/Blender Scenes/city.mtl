@@ -1,0 +1,463 @@
+# Max2Mtl Version 4.0 Mar 10th, 2001
+#
+newmtl Material__13dsdg
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.5
+illum 2
+#
+# Multi/Sub Material__29 (2) to come 
+#
+newmtl Material__1b
+Ka  0.0 0.0 0.0
+Kd  0.5 0.5 0.5
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl Material__13dsdg
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.5
+illum 2
+#
+# Multi/Sub Material__29 done 
+#
+newmtl Material__3s
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  8.0
+illum 2
+#
+newmtl Materiadsdfsdf
+Ka  0.0 0.0 0.0
+Kd  0.6 0.5 0.3
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl Material__8
+Ka  0.0 0.0 0.0
+Kd  0.2 0.2 0.2
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  2.0
+illum 2
+#
+newmtl Material__1b
+Ka  0.0 0.0 0.0
+Kd  0.5 0.5 0.5
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl Material__5
+Ka  0.0 0.0 0.0
+Kd  1.0 0.8 0.1
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl office_light
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl Material__3
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.2
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  8.0
+illum 2
+#
+newmtl Material__17
+Ka  0.0 0.0 0.0
+Kd  1.0 1.0 1.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl Material__6
+Ka  0.0 0.0 0.0
+Kd  0.2 0.2 0.2
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  2.5
+illum 2
+#
+newmtl tan
+Ka  0.0 0.0 0.0
+Kd  0.7 0.6 0.5
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  8.0
+illum 2
+#
+newmtl 1_-_Default
+Ka  0.0 0.0 0.0
+Kd  0.6 0.6 0.6
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  5.0
+illum 2
+#
+newmtl Material__12
+Ka  0.0 0.0 0.0
+Kd  0.8 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  8.0
+illum 2
+#
+newmtl Material__6ds
+Ka  0.0 0.0 0.0
+Kd  0.7 0.7 0.7
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  5.0
+illum 2
+#
+newmtl car_glass
+Ka  0.0 0.0 0.0
+Kd  0.6 0.6 0.6
+Ks  0.9 0.9 0.9
+d  0.0
+Ns  8.0
+illum 2
+#
+newmtl Material_s_6
+Ka  0.0 0.0 0.0
+Kd  0.3 0.3 0.3
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl red_light
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  8.0
+illum 2
+#
+newmtl light
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  8.0
+illum 2
+#
+newmtl blue
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.8
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  8.0
+illum 2
+#
+newmtl white
+Ka  0.0 0.0 0.0
+Kd  0.9 0.9 0.9
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  8.0
+illum 2
+#
+newmtl g
+Ka  0.0 0.0 0.0
+Kd  0.0 0.4 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  8.0
+illum 2
+#
+newmtl Material__13d
+Ka  0.0 0.0 0.0
+Kd  0.5 0.2 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl yellow
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  8.0
+illum 2
+#
+newmtl gy
+Ka  0.0 0.0 0.0
+Kd  1.0 0.8 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  8.0
+illum 2
+#
+newmtl gyp
+Ka  0.0 0.0 0.0
+Kd  0.3 0.2 0.1
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  8.0
+illum 2
+#
+newmtl Material__1bdd
+Ka  0.0 0.0 0.0
+Kd  0.9 0.9 0.7
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl Materiad
+Ka  0.0 0.0 0.0
+Kd  0.9 0.9 0.8
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl Matersaial__1bd
+Ka  0.0 0.0 0.0
+Kd  0.9 0.9 0.7
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl Material__1bd
+Ka  0.0 0.0 0.0
+Kd  0.9 0.9 0.7
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl 08_-_Default
+Ka  0.0 0.0 0.2
+Kd  0.0 0.0 0.2
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  8.0
+illum 2
+#
+newmtl 20_-_Desdfault
+Ka  1.0 0.0 0.0
+Kd  1.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl 21_-_Default
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Materiadsdf
+Ka  0.0 0.0 0.0
+Kd  0.6 0.5 0.3
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+# Multi/Sub Material__102 (2) to come 
+#
+newmtl Materiadsdfsdf
+Ka  0.0 0.0 0.0
+Kd  0.6 0.5 0.3
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl Material__13dsdg
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.5
+illum 2
+#
+# Multi/Sub Material__102 done 
+#
+# Multi/Sub Material__211 (2) to come 
+#
+newmtl Materiadsdfsdf
+Ka  0.0 0.0 0.0
+Kd  0.6 0.5 0.3
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl Material__13dsdg
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.5
+illum 2
+#
+# Multi/Sub Material__211 done 
+#
+# Multi/Sub Material__135 (2) to come 
+#
+newmtl Materiafddsdfsdf
+Ka  0.0 0.0 0.0
+Kd  0.6 0.5 0.3
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl Material__13dsdg
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.5
+illum 2
+#
+# Multi/Sub Material__135 done 
+#
+newmtl Materiafddsdfsdf
+Ka  0.0 0.0 0.0
+Kd  0.6 0.5 0.3
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+# Multi/Sub Material__200 (2) to come 
+#
+newmtl Materiadsdfsdf
+Ka  0.0 0.0 0.0
+Kd  0.6 0.5 0.3
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl Material__13dsdg
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.5
+illum 2
+#
+# Multi/Sub Material__200 done 
+#
+# Multi/Sub Material__158 (2) to come 
+#
+newmtl Materiadsdfsdf
+Ka  0.0 0.0 0.0
+Kd  0.6 0.5 0.3
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl Material__13dsdg
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.5
+illum 2
+#
+# Multi/Sub Material__158 done 
+#
+# Multi/Sub Material__189 (2) to come 
+#
+newmtl Materiadsdfsdf
+Ka  0.0 0.0 0.0
+Kd  0.6 0.5 0.3
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl Material__13dsdg
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.5
+illum 2
+#
+# Multi/Sub Material__189 done 
+#
+# Multi/Sub Material__222 (2) to come 
+#
+newmtl Materiafddsdfsdf
+Ka  0.0 0.0 0.0
+Kd  0.6 0.5 0.3
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl Material__13dsdg
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.5
+illum 2
+#
+# Multi/Sub Material__222 done 
+#
+# Multi/Sub Material__113 (2) to come 
+#
+newmtl Materiadsdfsdf
+Ka  0.0 0.0 0.0
+Kd  0.6 0.5 0.3
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.5
+illum 2
+#
+newmtl Material__13dsdg
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.5
+illum 2
+#
+# Multi/Sub Material__113 done 
+#
+newmtl Material__13
+Ka  0.1 0.1 0.1
+Kd  0.8 0.8 0.7
+Ks  0.9 0.9 0.9
+d  0.0
+Ns  0.5
+illum 2
+#
+# EOF

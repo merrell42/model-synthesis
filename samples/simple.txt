@@ -1,0 +1,53 @@
+Example Model.  Do not insert or delete lines from this file.
+
+x, y, and z extents
+4 4 6
+
+ 1  1  1  1 
+ 1  1  1  1 
+ 1  1  1  1 
+ 1  1  1  1 
+
+ 0  0  0  0 
+ 0  3  0  0 
+ 0  0  0  0 
+ 0  0  0  0 
+
+ 0  0  0  0 
+ 0  2  0  0 
+ 0  0  0  0 
+ 0  0  0  0 
+
+ 0  0  0  0 
+ 0  2  0  0 
+ 0  0  0  0 
+ 0  0  0  0 
+
+ 0  0  0  0 
+ 0  4  0  0 
+ 0  0  0  0 
+ 0  0  0  0 
+
+ 0  0  0  0 
+ 0  0  0  0 
+ 0  0  0  0 
+ 0  0  0  0 
+
+<Objects>
+D:\wxWidgets-2.8.9\samples\modelSynthesis\3D Studio Scenes\simple.max
+1
+$Box03
+#
+2
+$NGon03
+#
+3
+$Line01
+$Box01
+$NGon01
+#
+4
+$Box02
+$NGon02
+$Line02
+#
