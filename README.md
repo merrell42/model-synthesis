@@ -21,13 +21,13 @@ Model synthesis is formulated as a constraint satisfication problem. To solve th
 used the AC-3 algorithm by [Mackworth [1977]](https://www.cs.ubc.ca/~mack/Publications/AI77.pdf). But the AC-4 method by 
 [Mohr and Henderson [1986]](http://www.cs.utah.edu/~tch/CS4300/resources/AC4.pdf) is faster. Both methods are included
 in this project. (Flip the Boolean "useAc4" to switch between them.) Model synthesis was the first to use this type of approach for
-texture synthesis and creating models by example.
+texture synthesis and procedural modeling. Model synthesis initially focused on procedural modeling with only a few texture synthesis examples.
 
 [Wave Function Collapse](https://github.com/mxgmn/WaveFunctionCollapse) (WFC) by Gumin [2016] also generates textures and models
 by solving a constraint satisfication problem. WFC follows the algorithm below, but chooses the cells in a different order in Step 2.
-Gumin developed the idea of applying this to overlapping image tiles. This is often more convenient since the tiles can be computed directly
-from an image. Gumin also compiled the input images used in this project. I am in the process of writing a document comparing
-WFC to model synthesis.
+Gumin focused more on texture synthesis. He created more example textures (which are used in this project). And he developed the idea of
+applying this to overlapping image tiles. This is often more convenient since the tiles can be computed directly from an image.
+[Here is a more detailed comparison of the two methods](https://paulmerrell.org/wp-content/uploads/2021/07/comparison.pdf).
 
 ## How to Use
 
