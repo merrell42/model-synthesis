@@ -1,0 +1,182 @@
+.enabled-icon-button,
+.disabled-icon-button {
+	border: 1px solid #888;
+    height: 25px;
+    border-radius: 4px;
+    margin: 0px 3px;
+}
+
+.enabled-icon-button {
+	opacity: 0.7;
+}
+
+.disabled-icon-button {
+	opacity: 0.25;
+}
+
+.enabled-icon-button:hover {
+	border: 1px solid #000;
+	opacity: 1;
+}
+
+.active-mode {
+	color: #0015B3;
+	margin: 0 10px;
+}
+
+.inactive-mode-button {
+	color: #777;
+    margin: 4px 6px;
+    border: 1px solid #a3a3a3;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+.inactive-mode-button:hover {
+    border: 1px solid #000;
+}
+
+.active-mode-button {
+	background: #edfbff;
+	color: #3645c9;
+    margin: 4px 6px;
+    border: 1px solid #777;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+.run-button {
+	border: 1px solid #a5a5a5;
+	padding: 2px 4px;
+	border-radius: 4px;
+}
+	
+
+.action-button,
+.inactive-mode {
+	color: #777;
+	margin: 0 10px;
+}
+
+#controller-switcher {
+	display: flex;
+}
+
+#action-container {
+	float: left;
+}
+
+.gray {
+	color: #777;
+}
+
+.inactive-mode:hover,
+.action-button:hover {
+	cursor: pointer;
+	color: #009FDD;
+}
+
+#canvas1 {
+	cursor: default;
+}
+
+.no-select {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#brush-selector {
+	float: left;
+	/* margin: 4px 7px; */
+}
+
+#statistics {
+	float: left;
+	margin: 4px 10px;
+}
+
+.inactive-brush {
+	cursor: pointer;
+}
+
+.inactive-brush:hover {
+	opacity: 0.8;
+}
+
+.inactive-brush,
+.active-brush {
+	border-radius: 5px;
+	display: inline-block;
+	margin: 2px 3px;
+	width: 28px;
+	height: 17px;
+}
+
+.active-brush {
+	border: 1px solid;
+	margin: 1px 2px;
+}
+
+#settings-container {
+	margin-left: 25px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 300px;
+}
+
+#decoration-container {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 300px;
+}
+
+.laptop #decoration-container {
+	width: 160px;
+}
+
+.brush-selector-button {
+	height: 20px;
+	margin: 2px 3px;
+	float: right;
+	background: #ddd;
+	width: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.brush-selector-button:hover {
+	background: #aee;
+	cursor: pointer;
+}
+
+.right-panel {
+	font-size: 15px;
+}
+
+.boolean-setting,
+.number-setting,
+.extent-setting {
+	padding: 0;
+}
+
+.number-setting input,
+.extent-setting input {
+	width: 50px;
+	font-size: 13px;
+	text-align: center;
+	margin-left: 10px;
+}
+.string-setting input {
+	width: 150px;
+}
+
+.number-setting input,
+.extent-setting input {
+	height: 18px;
+}
