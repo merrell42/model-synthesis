@@ -3,7 +3,7 @@
 #include "src/third_party/xmlParser.h"
 #include "src/parseInput/parseInput.h"
 #include "src/OutputGenerator.h"
-#include "src/Synthesizer.h"
+#include "src/synthesizer.h"
 #include <chrono>
 #include <vector>
 #include <map>
@@ -12,7 +12,7 @@ using namespace std;
 using namespace std::chrono;
 
 int main() {
-    XMLNode xMainNode = XMLNode::openFileHelper(L"samples.xml", L"samples");
+    XMLNode xMainNode = XMLNode::openFileHelper("samples.xml", "samples");
     int numSamples = xMainNode.nChildNode();
     int numIterations = 2;
 

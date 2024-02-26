@@ -61,14 +61,14 @@ InputSettings* parseInput(const XMLNode& node, microseconds& inputTime) {
 
 	InputSettings* settings = new InputSettings();
 
-	settings->name = node.getAttributeStr(L"name");
-	settings->size[0] = parseInt(node, L"width", 0);
-	settings->size[1] = parseInt(node, L"length", 0);
-	settings->size[2] = parseInt(node, L"height", 0);
-	settings->blockSize[0] = parseInt(node, L"blockWidth", 0);
-	settings->blockSize[1] = parseInt(node, L"blockLength", 0);
-	settings->blockSize[2] = parseInt(node, L"blockHeight", 0);
-	settings->subset = node.getAttributeStr(L"subset");
+	settings->name = node.getAttributeStr("name");
+	settings->size[0] = parseInt(node, "width", 0);
+	settings->size[1] = parseInt(node, "length", 0);
+	settings->size[2] = parseInt(node, "height", 0);
+	settings->blockSize[0] = parseInt(node, "blockWidth", 0);
+	settings->blockSize[1] = parseInt(node, "blockLength", 0);
+	settings->blockSize[2] = parseInt(node, "blockHeight", 0);
+	settings->subset = node.getAttributeStr("subset");
 
 	// Switch length and height if length is 0.
 	if (settings->size[1] == 0) {
@@ -88,7 +88,7 @@ InputSettings* parseInput(const XMLNode& node, microseconds& inputTime) {
 			settings->blockSize[dim] = settings->size[dim];
 		}
 	}
-	settings->periodic = parseBool(node, L"periodic", false);
+	settings->periodic = parseBool(node, "periodic", false);
 	if (settings->periodic && (settings->blockSize[0] < settings->size[0] || settings->blockSize[1] < settings->size[1])) {
 		cout << "Periodic not implemented when modifying in blocks." << endl;
 	}
@@ -99,11 +99,11 @@ InputSettings* parseInput(const XMLNode& node, microseconds& inputTime) {
 		parseSimpleTiled(*settings);
 	} else if (settings->type == "overlapping") {
 		settings->numDims = 2;
-		settings->tileWidth = parseInt(node, L"N", 0);
+		settings->tileWidth = parseInt(node, "N", 0);
 		settings->tileHeight = settings->tileWidth;
-		settings->periodicInput = parseBool(node, L"periodicInput", true);
-		settings->symmetry = parseInt(node, L"symmetry", 8);
-		bool hasGround = parseInt(node, L"ground", 1234) != 1234;
+		settings->periodicInput = parseBool(node, "periodicInput", true);
+		settings->symmetry = parseInt(node, "symmetry", 8);
+		bool hasGround = parseInt(node, "ground", 1234) != 1234;
 		settings->ground = hasGround ? 1 : -1;
 		parseOverlapping(*settings);
 	}

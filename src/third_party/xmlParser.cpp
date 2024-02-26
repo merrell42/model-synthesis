@@ -2631,8 +2631,7 @@ std::string XMLNode::getAttributeStr(XMLCSTR lpszAttrib, int* j) const
 {
     XMLCSTR attribute = getAttribute(lpszAttrib, j);
     if (attribute) {
-        std::wstring ws(attribute);
-        std::string test(ws.begin(), ws.end());
+        std::string test(attribute);
         return test;
     }
     else {
@@ -2694,8 +2693,7 @@ std::string XMLNode::getNameStr() const
 {
     XMLCSTR attribute = getName();
     if (attribute) {
-        std::wstring ws(attribute);
-        std::string test(ws.begin(), ws.end());
+        std::string test(attribute);
         return test;
     }
     else {
