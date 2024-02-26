@@ -121,10 +121,13 @@ rollout editor "Model Synthesis Editor" width: 300 height: 160
 		ysize=ysize as integer;
 		zsize=readDelimitedString word " ";
 		zsize=zsize as integer;
+		print xsize
+		print ysize
+		print zsize
 
 		
 		-- Create a 3D array.
-		
+
 		model = #(#(#()));
 		for x = 1 to xsize do
 		(

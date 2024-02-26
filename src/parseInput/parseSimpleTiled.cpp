@@ -157,22 +157,20 @@ void parseSimpleTiled(InputSettings& settings) {
 	// Read in the data.xml file.
 	string path = "samples/" + settings.name + "/data.xml";
 	std::wstring_convert<std::codecvt_utf8_utf16<wchar_t>> converter;
-	std::wstring wPath = converter.from_bytes(path);
-	XMLNode xDataNode = XMLNode::openFileHelper(wPath.c_str(), L"set");
-	XMLNode xTilesNode = xDataNode.getChildNode(L"tiles");
-	XMLNode xNeighborsNode = xDataNode.getChildNode(L"neighbors");
+	XMLNode xDataNode = XMLNode::openFileHelper(path.c_str(), "set");
+	XMLNode xTilesNode = xDataNode.getChildNode("tiles");
+	XMLNode xNeighborsNode = xDataNode.getChildNode("neighbors");
 
 	// Read in the subset node, if it applies.
 	vector<string> subset;
 	if (settings.subset != "") {
-		wstring wSubset = wstring(settings.subset.begin(), settings.subset.end());
-		const XMLNode subsetsNode = xDataNode.getChildNode(L"subsets");
-		const XMLNode subsetNode = subsetsNode.getChildNodeWithAttribute(L"subset", L"name", wSubset.c_str());
+		const XMLNode subsetsNode = xDataNode.getChildNode("subsets");
+		const XMLNode subsetNode = subsetsNode.getChildNodeWithAttribute("subset", "name", settings.subset.c_str());
 
-		int numTiles = subsetNode.nChildNode(L"tile");
+		int numTiles = subsetNode.nChildNode("tile");
 		for (int i = 0; i < numTiles; i++) {
-			XMLNode tileNode = subsetNode.getChildNode(L"tile", i);
-			subset.push_back(tileNode.getAttributeStr(L"name"));
+			XMLNode tileNode = subsetNode.getChildNode("tile", i);
+			subset.push_back(tileNode.getAttributeStr("name"));
 		}
 	}
 
@@ -182,12 +180,12 @@ void parseSimpleTiled(InputSettings& settings) {
 	vector<int> versionNums;
 	vector<int> rotation;
 	vector<int> reflection;
-	int numTiles = xTilesNode.nChildNode(L"tile");
+	int numTiles = xTilesNode.nChildNode("tile");
 	for (int i = 0; i < numTiles; i++) {
-		XMLNode tileNode = xTilesNode.getChildNode(L"tile", i);
-		float weight = parseFloat(tileNode, L"weight", 1.0);
-		string symmetry = tileNode.getAttributeStr(L"symmetry");
-		string name = tileNode.getAttributeStr(L"name");
+		XMLNode tileNode = xTilesNode.getChildNode("tile", i);
+		float weight = parseFloat(tileNode, "weight", 1.0);
+		string symmetry = tileNode.getAttributeStr("symmetry");
+		string name = tileNode.getAttributeStr("name");
 		if (subset.size() > 0 && getIndex(subset, name) == -1) {
 			continue;
 		}
@@ -275,11 +273,11 @@ void parseSimpleTiled(InputSettings& settings) {
 
 	vector<int> r = rotation;
 	vector<int> f = reflection;
-	int numNeighbors = xNeighborsNode.nChildNode(L"neighbor");
+	int numNeighbors = xNeighborsNode.nChildNode("neighbor");
 	for (int i = 0; i < numNeighbors; i++) {
-		 XMLNode neighborNode = xNeighborsNode.getChildNode(L"neighbor", i);
-		 string left = remove0(neighborNode.getAttributeStr(L"left"));
-		 string right = remove0(neighborNode.getAttributeStr(L"right"));
+		 XMLNode neighborNode = xNeighborsNode.getChildNode("neighbor", i);
+		 string left = remove0(neighborNode.getAttributeStr("left"));
+		 string right = remove0(neighborNode.getAttributeStr("right"));
 		 int a = getIndex(names, left);
 		 int b = getIndex(names, right);
 

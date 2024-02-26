@@ -11,7 +11,7 @@ InputSettings::~InputSettings() {
 }
 
 // Read a floating point attribute from an XML node.
-float parseFloat(const XMLNode& node, const wchar_t* attribute, const float defaultValue) {
+float parseFloat(const XMLNode& node, const char* attribute, const float defaultValue) {
 	float result;
 	string attributeStr = node.getAttributeStr(attribute);
 	if (attributeStr.size() == 0) {
@@ -24,7 +24,7 @@ float parseFloat(const XMLNode& node, const wchar_t* attribute, const float defa
 }
 
 // Read an integer attribute from an XML node.
-int parseInt(const XMLNode& node, const wchar_t* attribute, const int defaultValue) {
+int parseInt(const XMLNode& node, const char* attribute, const int defaultValue) {
 	int result;
 	string attributeStr = node.getAttributeStr(attribute);
 	if (attributeStr.size() == 0) {
@@ -37,7 +37,7 @@ int parseInt(const XMLNode& node, const wchar_t* attribute, const int defaultVal
 }
 
 // Read a Boolean attribute from an XML node.
-bool parseBool(const XMLNode& node, const wchar_t* attribute, const bool defaultValue) {
+bool parseBool(const XMLNode& node, const char* attribute, const bool defaultValue) {
 	string attributeStr = node.getAttributeStr(attribute);
 	if (attributeStr.size() == 0) {
 		return defaultValue;

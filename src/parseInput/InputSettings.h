@@ -81,13 +81,13 @@ int rgb(int x, int y, int N);
 int rgba(int x, int y, int N);
 
 // Read a floating point attribute from an XML node.
-float parseFloat(const XMLNode& node, const wchar_t* attribute, const float defaultValue);
+float parseFloat(const XMLNode& node, const char* attribute, const float defaultValue);
 
 // Read an integer attribute from an XML node.
-int parseInt(const XMLNode& node, const wchar_t* attribute, const int defaultValue);
+int parseInt(const XMLNode& node, const char* attribute, const int defaultValue);
 
 // Read a Boolean attribute from an XML node.
-bool parseBool(const XMLNode& node, const wchar_t* attribute, const bool defaultValue);
+bool parseBool(const XMLNode& node, const char* attribute, const bool defaultValue);
 
 // Find an initial label that can tile the plane.
 void findInitialLabel(InputSettings& settings);
